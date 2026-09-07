@@ -5,7 +5,7 @@ export const siteConfig = {
   email: "sanjeebmezu@gmail.com",
   phone: "9818179631",
   location: "Nagadesh, Bhaktapur",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://mezustudio.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.mezustudio.com",
   statement:
     "Helping businesses grow smarter with AI-powered marketing, automation, and strategy.",
   intro:
