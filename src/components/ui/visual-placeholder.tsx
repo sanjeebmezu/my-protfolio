@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-const placeholderImage = "/ai-marketing-placeholder-sharp.jpg";
+const placeholderImage = "/sanjeeb-placeholder.png";
 
 export function VisualPlaceholder({
   label,
