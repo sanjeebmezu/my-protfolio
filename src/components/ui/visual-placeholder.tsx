@@ -7,10 +7,12 @@ export function VisualPlaceholder({
   label,
   className,
   imageSrc = defaultPlaceholderImage,
+  imageClassName,
 }: {
   label: string;
   className?: string;
   imageSrc?: string;
+  imageClassName?: string;
 }) {
   return (
     <div
@@ -24,7 +26,7 @@ export function VisualPlaceholder({
         alt=""
         fill
         sizes="(min-width: 1024px) 50vw, 100vw"
-        className="object-cover"
+        className={cn("object-cover", imageClassName)}
         priority={label.toLowerCase().includes("hero")}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#09090B]/95 via-[#09090B]/30 to-transparent" />

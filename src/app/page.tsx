@@ -82,6 +82,7 @@ export default function Home() {
           <VisualPlaceholder
             label="Professional photo placeholder for Sanjeeb Meju"
             imageSrc="/myplcaholder.png"
+            imageClassName="object-contain"
           />
           <div>
             <SectionHeading
