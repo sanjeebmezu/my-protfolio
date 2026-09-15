@@ -1,14 +1,16 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-const placeholderImage = "/sanjeeb-placeholder.png";
+const defaultPlaceholderImage = "/ai-marketing-placeholder-sharp.jpg";
 
 export function VisualPlaceholder({
   label,
   className,
+  imageSrc = defaultPlaceholderImage,
 }: {
   label: string;
   className?: string;
+  imageSrc?: string;
 }) {
   return (
     <div
@@ -18,7 +20,7 @@ export function VisualPlaceholder({
       )}
     >
       <Image
-        src={placeholderImage}
+        src={imageSrc}
         alt=""
         fill
         sizes="(min-width: 1024px) 50vw, 100vw"
