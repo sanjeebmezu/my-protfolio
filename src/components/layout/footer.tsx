@@ -13,7 +13,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center" aria-label="MezuStudio home">
               <Image
-                src="/Black___White_Minimalist_Business_Logo-removebg-preview.png"
+                src="/Logo.png"
                 alt="MezuStudio"
                 width={190}
                 height={57}
