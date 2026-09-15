@@ -81,7 +81,7 @@ export default function Home() {
         <Container className="grid gap-10 lg:grid-cols-[.9fr_1.1fr]">
           <VisualPlaceholder
             label="Professional photo placeholder for Sanjeeb Meju"
-            imageSrc="/sanjeeb-placeholder.png"
+            imageSrc="/myplcaholder.png"
           />
           <div>
             <SectionHeading
